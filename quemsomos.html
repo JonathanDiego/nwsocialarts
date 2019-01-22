@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffca28">
+    <title>NW Social & Arts</title>
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/paradoxy.css">
+</head>
+
+<body style="background-color:white">
+    <div class="fixed-action-btn center valign-wrapper hide-on-large-only">
+        <a href="#" data-activates="menu-mobile" data-target="slide-out" class="btn-floating btn-large waves-effect waves-light sidenav-trigger"><img
+                height="55" src="https://firebasestorage.googleapis.com/v0/b/nwsocialarts-cd55a.appspot.com/o/NW.png?alt=media&token=f269c02d-6b57-4d5b-87a6-e5e65bf0c50d"
+                alt="paradoxy"></a>
+        </a>
+    </div>
+
+    <ul id="slide-out" class="sidenav sidenav-fixed amber darken-1 center">
+        <li><img height="250" src="https://firebasestorage.googleapis.com/v0/b/nwsocialarts-cd55a.appspot.com/o/Nwtree.png?alt=media&token=9882d93a-d67f-40ed-92f5-e8470c577fb9"
+                alt="paradoxy"></li>
+        <li><a style="font-size: large" href="index.html"><b>Home</b></a></li>
+        <li><a style="font-size: xx-large" href="quemsomos.html"><b>Sobre</b></a></li>
+        <li><a style="font-size: large" href="loja.html"><b>Catálogo</b></a></li>
+        <li><a style="font-size: large" href="contato.html"><b>Contato</b></a></li>
+    </ul>
+
+
+    <main class="pagebackground">
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper light-blue lighten-3">
+                    <a href="#!" class="brand-logo">&nbsp;Sobre&nbsp;</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card blue" style="color:white">
+                    <div class="card-image">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/nwsocialarts-cd55a.appspot.com/o/banner1.jpg?alt=media&token=1ba9cf29-6592-449b-aecf-922a01877a54">
+                    </div>
+                    <div class="card-content">
+                        <p>Temos a solução para comunicação do seu negócio!
+                            (ATENDEMOS AS REGIÕES DE JUNDIAÍ E INDAIATUBA)</p><br />
+
+                        <p>Desenvolvemos desde Logo tipo (Identidade visual completa), Social Media, Artes em Geral
+                            (Anúncios , Propagandas focadas no Marketing Digital) também desenvolvemos e produzimos
+                            todo material de comunicação visual impressa.</p><br />
+                        <p>Oferecermos a criação de Website e Lojas Virtuais com valores diferenciados de mercado, mas
+                            sempre prezando a alta qualidade.</p><br />
+
+                        <p>NW Social & Arts está posicionada no mercado para auxiliar e direcionar a comunicação da
+                            sua empresa, de maneira eficaz ao objetivo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="row">
+                    <div class="card blue lighten-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">Missão</span>
+                            <p>Entregar produtos de qualidade.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card blue lighten-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">Visão</span>
+                            <p>Ser referência de mercado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card blue lighten-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">Valores</span>
+                            <p>Ética, qualidade, agilidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="page-footer light-blue lighten-3">
+        <div class="footer-copyright blue darken-1">
+            <div style="margin-left:10px" class="col s4 center valign-wrapper">
+                <img height="30" src="https://paradoxy.com.br/assets/svg/ParadoxyLogoOnly.svg"
+                    alt="brand-logo"> <a href="https://www.paradoxy.com.br">&nbsp;Paradoxy - Inteligência Tecnológica</a>
+            </div>
+            <div class="col s8 right" style="margin-right:10px">
+                <a href="#">&nbsp;© 2019 NW Social & Arts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/materialize.js"></script>
+    <script>
+        (function () {
+            M.AutoInit();
+
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.fixed-action-btn');
+                var instances = M.FloatingActionButton.init(elems, options);
+            });
+
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems, options);
+            });
+        }());
+    </script>
+</body>
+
+</html>

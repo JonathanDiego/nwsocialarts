@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+  .fullimage {
+    width: 100%; 
+    max-width: 1363px;
+    align-content: center
+  }
+
+
+.listnw {
+  font-size: large; 
+  color:chocolate;
+  text-decoration: brown;
+  text-shadow: 2px;
+  font-weight: bolder; 
+}
+
+.listnw .material-icons {
+  color:steelblue;
+  text-decoration: steelblue;
+}
+
+.welcome-parallax {
+  height: "200px" !important;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.indexLabel:link {
+  color: orange !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.indexLabel:visited {
+  color: orange !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.indexLabel:hover {
+  color: orangered !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.indexLabel:active {
+  color: yellow !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Lemon-Milk", cursive, sans-serif;
+}
+
+@font-face {
+  font-family: 'Lemon-Milk';
+  src: url('C:\Users\Jonathan\Downloads\LemonMilkbolditalic.otf')
+}
+
+/*
+*/
+
+.material-icons.md1::before{
+  content:"search"; 
+}
+
+.material-icons.md1:hover::before{
+  content:"navigate_next"; 
+}
+
+.pagebackground {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/nwsocialarts-cd55a.appspot.com/o/ARTE%20SITE_SEM%20LOGO_FULL.jpg?alt=media&token=2138624c-b167-44a2-82ee-1dfb6e1ba78f');
+}
