@@ -23,6 +23,14 @@ header, main, footer {
     align-content: center
   }
 
+  .shoptitle {
+    font-size: x-large;
+    color:chocolate;
+    text-decoration: brown;
+    text-shadow: 2px;
+    font-weight: bolder;
+    background-color: white; 
+  }
 
 .listnw {
   font-size: large; 
@@ -85,6 +93,30 @@ a:active {
 
 .indexLabel:active {
   color: yellow !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.shoplabel:link {
+  color: black !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.shoplabel:visited {
+  color: black !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.shoplabel:hover {
+  color: black !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.shoplabel:active {
+  color: black !important;
   background-color: transparent;
   text-decoration: underline;
 }
