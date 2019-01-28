@@ -106,7 +106,7 @@
 
     </style>
 
-    <footer class="page-footer light-blue lighten-3">
+    <footer class="page-footer without-padding light-blue lighten-3">
         <div class="footer-copyright blue darken-1">
             <div style="margin-left:10px" class="col s4 center valign-wrapper">
                 <img height="30" src="https://paradoxy.com.br/assets/svg/ParadoxyLogoOnly.svg" alt="brand-logo"> <a
@@ -119,25 +119,9 @@
     </footer>
 
     <script src="js/materialize.js"></script>
-    <script src="js/slider.js"></script>
     <script>
         (function () {
             M.AutoInit();
-
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.fixed-action-btn');
-                var instances = M.FloatingActionButton.init(elems, options);
-            });
-
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.sidenav');
-                var instances = M.Sidenav.init(elems, options);
-            });
-
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.parallax');
-                var instances = M.Parallax.init(elems, options);
-            });
         }());
     </script>
 </body>

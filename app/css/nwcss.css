@@ -3,144 +3,153 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+
 main {
     flex: 1 0 auto;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     padding-left: 300px;
-  }
+}
 
-  @media only screen and (max-width : 992px) {
-    header, main, footer {
-      padding-left: 0;
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
     }
-  }
+}
 
-  .fullimage {
-    width: 100%; 
+.fullimage {
+    width: 100%;
     max-width: 1363px;
     align-content: center
-  }
+}
 
-  .shoptitle {
+.shoptitle {
     font-size: x-large;
-    color:chocolate;
+    color: chocolate;
     text-decoration: brown;
     text-shadow: 2px;
     font-weight: bolder;
-    background-color: white; 
-  }
+    background-color: white;
+}
 
 .listnw {
-  font-size: large; 
-  color:chocolate;
-  text-decoration: brown;
-  text-shadow: 2px;
-  font-weight: bolder; 
+    font-size: large;
+    color: chocolate;
+    text-decoration: brown;
+    text-shadow: 2px;
+    font-weight: bolder;
 }
 
 .listnw .material-icons {
-  color:steelblue;
-  text-decoration: steelblue;
+    color: steelblue;
+    text-decoration: steelblue;
 }
 
 .welcome-parallax {
-  height: "200px" !important;
+    height: "200px" !important;
 }
 
 a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:hover {
-  color: orangered;
-  background-color: transparent;
-  text-decoration: underline;
+    color: orangered;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .indexLabel:link {
-  color: orange !important;
-  background-color: transparent;
-  text-decoration: none;
+    color: orange !important;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .indexLabel:visited {
-  color: orange !important;
-  background-color: transparent;
-  text-decoration: none;
+    color: orange !important;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .indexLabel:hover {
-  color: orangered !important;
-  background-color: transparent;
-  text-decoration: underline;
+    color: orangered !important;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .indexLabel:active {
-  color: yellow !important;
-  background-color: transparent;
-  text-decoration: underline;
+    color: yellow !important;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .shoplabel:link {
-  color: black !important;
-  background-color: transparent;
-  text-decoration: none;
+    color: black !important;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .shoplabel:visited {
-  color: black !important;
-  background-color: transparent;
-  text-decoration: none;
+    color: black !important;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .shoplabel:hover {
-  color: black !important;
-  background-color: transparent;
-  text-decoration: underline;
+    color: black !important;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .shoplabel:active {
-  color: black !important;
-  background-color: transparent;
-  text-decoration: underline;
+    color: black !important;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 body {
-  font-family: "Lemon-Milk", cursive, sans-serif;
+    font-family: "Lemon-Milk", cursive, sans-serif;
 }
 
 @font-face {
-  font-family: 'Lemon-Milk';
-  src: url('/fonts/LemonMilk.otf')
+    font-family: 'Lemon-Milk';
+    src: url('/fonts/LemonMilk.otf')
 }
 
 /*
 */
 
-.material-icons.md1::before{
-  content:"search"; 
+.page-footer.without-padding {
+    padding-top: 0px;
 }
 
-.material-icons.md1:hover::before{
-  content:"navigate_next"; 
+.material-icons.md1::before {
+    content: "search";
+}
+
+.material-icons.md1:hover::before {
+    content: "navigate_next";
 }
 
 .pagebackground {
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/nwsocialarts-cd55a.appspot.com/o/ARTE%20SITE_SEM%20LOGO_FULL.jpg?alt=media&token=2138624c-b167-44a2-82ee-1dfb6e1ba78f');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/nwsocialarts-cd55a.appspot.com/o/ARTE%20SITE_SEM%20LOGO_FULL.jpg?alt=media&token=2138624c-b167-44a2-82ee-1dfb6e1ba78f');
 }
